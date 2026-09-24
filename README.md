@@ -1,10 +1,10 @@
 # Template Báo cáo Tự động
 
-Mẫu Word `.dotx` tiếng Việt cho **báo cáo kỹ thuật / học thuật**, có đánh số chương–mục, chú thích hình–bảng và các danh mục tự động.
+Mẫu Word `.dotx` tiếng Việt cho **báo cáo kỹ thuật / học thuật**, có đánh số phần–mục, chú thích hình–bảng và các danh mục tự động.
 
 ## Định hướng thiết kế
 
-Tôi giữ đúng mục đích của mẫu gốc — một báo cáo kỹ thuật có cấu trúc chương, mục lục và danh mục hình/bảng — thay vì biến nó thành báo cáo marketing hay báo cáo thường niên. Hình thức mới kết hợp:
+Tôi giữ đúng mục đích của mẫu gốc — một báo cáo kỹ thuật có cấu trúc phần/mục, mục lục và danh mục hình/bảng — thay vì biến nó thành báo cáo marketing hay báo cáo thường niên. Hình thức mới kết hợp:
 
 - **Tính kỷ luật của báo cáo học thuật:** phân cấp Heading 1–9, đánh số đa cấp và các trường Word tự động.
 - **Tính rõ ràng của báo cáo kỹ thuật:** nội dung gọn, chú thích thống nhất, bảng có hàng tiêu đề và có thể lặp lại khi sang trang.
@@ -18,17 +18,18 @@ Tôi giữ đúng mục đích của mẫu gốc — một báo cáo kỹ thuậ
 - **Bảng màu:** xanh than `#17324D`, teal `#235E66`, mực `#253746`, nền nhạt `#F2F6F7`; vàng đồng `#B7894D` chỉ dùng cho đường nhấn mảnh.
 - **Tiêu đề:** xanh than, phân cấp bằng cỡ chữ/khoảng cách thay vì nhiều màu cạnh tranh.
 - **Bìa:** tên báo cáo lớn, căn trái; chủ đề và thông tin người thực hiện được trình bày bằng các đoạn văn có tab căn hàng, không dùng bảng bố cục.
-- **Chương:** Heading 1 bắt đầu ở trang mới; Heading 1–9 giữ numbering và cấu trúc điều hướng của Word. Mục lục mẫu lấy đến Heading 3.
+- **Phần:** Heading 1 bắt đầu ở trang mới và tự sinh nhãn `PHẦN 1`, `PHẦN 2`…; Heading 2–9 giữ numbering, thụt lề theo cấp và cấu trúc điều hướng của Word. Mục lục lấy đến Heading 3.
+- **Tóm tắt:** có một khối Tóm tắt tùy chọn sau bìa; có thể xóa nếu quy định của đơn vị không yêu cầu.
 - **Hình và bảng:** caption hình đặt dưới hình; caption bảng đặt trên bảng. Bảng dữ liệu mẫu dùng hàng đầu làm header, có đường kẻ ngang nhẹ và lặp header khi qua trang.
 - **Số trang:** bìa không hiện số; phần nội dung bắt đầu từ trang 1. Đầu trang lấy tên báo cáo từ style Title.
 
 ## Cách sử dụng
 
 1. Mở `Template_Bao_Cao_Auto.dotx` bằng Microsoft Word và chọn **Save As** thành một `.docx` mới để bắt đầu báo cáo.
-2. Thay các phần trong ngoặc vuông trên bìa và nội dung mẫu. Dùng **Heading 1**, **Heading 2**, **Heading 3**… từ Styles thay vì tự gõ số chương/mục.
+2. Thay các phần trong ngoặc vuông trên bìa và nội dung mẫu; giữ hoặc xóa khối Tóm tắt tùy yêu cầu. Dùng **Heading 1**, **Heading 2**, **Heading 3**… từ Styles thay vì tự gõ số phần/mục.
 3. Khi thêm hình hoặc bảng, dùng **References → Insert Caption** với nhãn `Hình` hoặc `Bảng`; không gõ số thứ tự bằng tay. Đặt caption hình dưới hình; với caption bảng, áp dụng style **Chú thích bảng** để caption đi cùng bảng. Thêm mô tả **Alt Text** cho hình.
 4. Dùng bảng đơn giản để trình bày dữ liệu: một hàng tiêu đề rõ nghĩa, không gộp ô nếu không cần. Có thể chọn style **Bảng báo cáo** trong Word.
-5. Sau khi hoàn tất, nhấn **Ctrl+A**, rồi **F9** để cập nhật mục lục, danh mục hình/bảng, số chương và tham chiếu. Nếu Word hỏi, chọn cập nhật toàn bộ bảng.
+5. Sau khi hoàn tất, nhấn **Ctrl+A**, rồi **F9** để cập nhật mục lục, danh mục hình/bảng, số phần và tham chiếu. Nếu Word hỏi, chọn cập nhật toàn bộ bảng.
 6. Xóa các đoạn và bảng minh họa không dùng trước khi phát hành.
 
 > Nếu trường, khoa hoặc đơn vị của bạn có quy định riêng về font, cỡ chữ, lề hay kiểu trích dẫn, hãy ưu tiên quy định đó và chỉnh lại các style tương ứng.
